@@ -10,7 +10,8 @@ create_smtp_creds_key(
   provider = NULL,
   host = NULL,
   port = NULL,
-  use_ssl = NULL
+  use_ssl = NULL,
+  overwrite = FALSE
 )
 }
 \arguments{
@@ -44,6 +45,10 @@ value.}
 and \code{port} parameters are the address and port for the SMTP server;
 \code{use_ssl} is an option as to whether to use SSL: supply a \code{TRUE} or \code{FALSE}
 value.}
+
+\item{overwrite}{An option that controls the overwriting of existing keys
+with the same \code{id} value. By default, this is \code{FALSE} (where overwriting is
+prohibited).}
 }
 \description{
 We can set SMTP access credentials in the system-wide key-value store for the
