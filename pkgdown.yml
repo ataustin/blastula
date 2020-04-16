@@ -1,0 +1,11 @@
+pandoc: 2.7.3
+pkgdown: 1.5.0.9000
+pkgdown_sha: 2254f318a4c1cb12419e27155cce74307bd844ea
+articles:
+  sending_using_smtp: sending_using_smtp.html
+  simple_composition: simple_composition.html
+last_built: 2020-04-16T20:07Z
+urls:
+  reference: https://rich-iannone.github.io/blastula/reference
+  article: https://rich-iannone.github.io/blastula/articles
+
